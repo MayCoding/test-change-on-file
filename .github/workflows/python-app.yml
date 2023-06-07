@@ -24,12 +24,7 @@ jobs:
           pip install -r requirements.txt
       
       - name: Check SUMMARY.md Changes
-        run: |
-          changed_files=$(git diff --name-only HEAD^ HEAD)
-          echo "$changed_files" > changed_files.txt
-
-#       - name: Execute Python script
-#         run: |
-#           python script.py
-#         env:
-#           CHANGED_FILES: ${{ steps.check_changes.outputs.changed_files }}
+        env:
+          DIFF: ${{ steps.git-diff-action.outputs.json-diff-path }}
+        run: 
+          python test.py $DIFF
