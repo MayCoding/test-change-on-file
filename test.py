@@ -20,10 +20,6 @@ def update_github_content(repo,filename,content,sha):
     레포, 파일이름, 콘텐츠 내용을 받아 깃헙의 콘텐츠를 업데이트합니다.
     """
     today = datetime.datetime.now().strftime('%Y.%m.%d %H:%m:%s')
-    OWNER = 'MayCoding'
-    HEADERS = {"Accept": "application/vnd.github+json", 
-                    "Authorization":"Bearer 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",
-                    "X-GitHub-Api-Version":"2022-11-28"}
     if content:
         content = base64_encoding(content)
     URL = f"https://api.github.com/repos/{OWNER}/{repo}/contents/{filename}"
@@ -52,4 +48,10 @@ def process_changes(changes):
 
 if __name__ == "__main__":
     changes = sys.argv[1]
+    token = sys.argv[2]
+
+    OWNER = 'MayCoding'
+    HEADERS = {"Accept": "application/vnd.github+json", 
+                    "Authorization":f"Bearer {token}",
+                    "X-GitHub-Api-Version":"2022-11-28"}
     process_changes(changes)
