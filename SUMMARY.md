@@ -19,5 +19,5 @@
 * [\[읽기 자료\] Postman 사용법을 인지한다](content2735.md)
 * [\[Chapter Postman\] Postman으로 API 테스팅하기](content2736.md)
 * [\[읽기 자료\] (Optional)Postman으로 날씨 받아오기를 구현한다](content2737.md)
-* [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다](content7181.md)
-* [\[Self Guided Lessons\] 제목에 변화를 줍니다.(추가하는 내용)](content2739.md)
+* [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다(추가하는 내용)](content7181.md)
+* [\[Self Guided Lessons\] 제목에 변화를 줍니다](content2739.md)
