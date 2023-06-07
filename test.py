@@ -43,11 +43,11 @@ def update_github_content(repo,filename,content,sha):
 
 def process_changes(changes):
     # 변경 내용을 처리하는 로직 작성
-    parsed_changes = json.loads(changes)
+    print(changes)
     # 변경 내용을 사용하여 작업 수행
 
     repo = 'test-change-on-file'
-    update_github_content(repo,'result_test.txt',parsed_changes,None)
+    update_github_content(repo,'result_test.txt',changes,None)
     
 
 if __name__ == "__main__":
