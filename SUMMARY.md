@@ -21,3 +21,4 @@
 * [\[읽기 자료\] (Optional)Postman으로 날씨 받아오기를 구현한다](content2737.md)
 * [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다(추가하는 내용)](content7181.md)
 * [\[Self Guided Lessons\] 제목에 변화를 줍니다](content2739.md)
+* [완전 새로운 콘텐츠](page-1.md)
