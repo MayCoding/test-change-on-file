@@ -19,7 +19,9 @@ jobs:
           python-version: '3.8'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt # 필요한 종속성이 있다면 requirements.txt에 추가해주세요.
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt # 필요한 종속성이 있다면 requirements.txt에 추가해주세요.
       
       - name: Check for SUMMARY.md changes
         id: check_changes
