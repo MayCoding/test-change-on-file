@@ -29,5 +29,5 @@ jobs:
       
       - name: Check SUMMARY.md Changes
         run: |
-          changes=$git diff HEAD^ HEAD SUMMARY.md
+          changes=$git diff HEAD^ HEAD
           python test.py "$changes"
