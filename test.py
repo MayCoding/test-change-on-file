@@ -22,7 +22,7 @@ def update_github_content(repo,filename,content,sha):
     today = datetime.datetime.now().strftime('%Y.%m.%d %H:%m:%s')
     OWNER = 'MayCoding'
     HEADERS = {"Accept": "application/vnd.github+json", 
-                    "Authorization":"Bearer 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",
+                    "Authorization":"Bearer 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",
                     "X-GitHub-Api-Version":"2022-11-28"}
     if content:
         content = base64_encoding(content)
