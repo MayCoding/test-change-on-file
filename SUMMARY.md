@@ -22,6 +22,6 @@
 * [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다](content7181.md)
 * [\[Self Guided Lessons\]](content2739.md)
 * [완전 새로운 콘텐츠](page-1.md)
-* [완전 새로운 콘텐츠2](page-2.md)
 * [완전 새로운 콘텐츠3](page-3.md)
-* [완전 새로운 콘텐츠4](page-4.md)
+* [완전 새로운 콘텐츠3](page-3.md)
+* [완전 새로운 콘텐츠5](page-5.md)
