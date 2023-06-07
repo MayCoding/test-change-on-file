@@ -2,6 +2,8 @@ name: Execute Python File on SUMMARY.md Change
 
 on:
   push:
+    paths:
+      - "SUMMARY.md"
     branches:
       - main
 
@@ -12,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
       
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -24,8 +28,6 @@ jobs:
           pip install -r requirements.txt
       
       - name: Check SUMMARY.md Changes
-        env:
-          DIFF: ${{ steps.git-diff-action.outputs.json-diff-path }}
-        run: 
-          echo $DIFF
-          python test.py $DIFF
+        run: |
+          changes=$git diff HEAD^ HEAD SUMMARY.md
+          python test.py "$changes"
