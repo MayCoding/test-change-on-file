@@ -21,17 +21,15 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt # 필요한 종속성이 있다면 requirements.txt에 추가해주세요.
+          pip install -r requirements.txt
       
-      - name: Check for SUMMARY.md changes
-        id: check_changes
+      - name: Check SUMMARY.md Changes
         run: |
-          changes=$(git diff --name-only HEAD~1..HEAD SUMMARY.md)
-          echo "::set-output name=changes::$changes"
-        
-      - name: Run Python file if SUMMARY.md has changed
-        run: |
-          changes=$INPUT_CHANGES
-          if [[ -n "$changes" ]]; then
-            python test.py "$changes" # 파이썬 파일명과 변경 내용을 처리하는 로직을 자신의 파일에 맞게 수정해주세요.
-          fi
+          changed_files=$(git diff --name-only HEAD^ HEAD)
+          echo "$changed_files" > changed_files.txt
+
+#       - name: Execute Python script
+#         run: |
+#           python script.py
+#         env:
+#           CHANGED_FILES: ${{ steps.check_changes.outputs.changed_files }}
