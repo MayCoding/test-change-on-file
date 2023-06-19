@@ -12,7 +12,6 @@
 * [\[영상 자료\] HTTP Responses를 인지한다](content7179.md)
 * [\[읽기 자료\] HTTP 상태를 탐색한다](content2729.md)
 * [\[읽기 자료\] AJAX를 인지한다](content2730.md)
-* [\[읽기 자료\] SSR과 CSR을 인지한다](content2731.md)
 * [\[영상 자료\] CORS를 인지한다](content7180.md)
 * [\[읽기 자료\] REST API를 인지한다](content2733.md)
 * [\[읽기 자료\] Open API와 API Key를 인지한다](content2734.md)
@@ -20,7 +19,8 @@
 * [\[Chapter Postman\] Postman으로 API 테스팅하기](content2736.md)
 * [\[읽기 자료\] (Optional)Postman으로 날씨 받아오기를](content2737.md)
 * [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다](content7181.md)
-* [\[Self Guided Lessons\]](content2739.md)
-* [Action 파일 위치 변경](page-1.md)
+* [Action To Lambda로 변경](page-1.md)
 * [완전 변경할 콘텐츠3](content4983579843.md)
 * [완전 새롭지 않은 변경할 콘텐츠!](content33278648.md)
+* [\[읽기 자료\] Lambda를 사용해 본다](content23423.md)
+* 
