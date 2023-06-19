@@ -1,0 +1,25 @@
+name: Execute Lambda Python File on SUMMARY.md Change
+
+on:
+  push:
+    paths:
+      - "SUMMARY.md"
+    branches:
+      - main
+
+jobs:
+  execute_lambda:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+          
+      - name: POST Changes to AWS Gateway API
+        run: |
+            changes=$(git diff HEAD~1..HEAD SUMMARY.md)  # 가져온 변경 내용
+            REPO="${{ github.repository }}"
+            curl -X POST -H "Content-Type: application/json" -d "{\"SummaryChanged\": \"$changes\",\"GithubRepo\":"\REPO\"}" "https://psiha6mxu2.execute-api.ap-northeast-2.amazonaws.com"
+            
