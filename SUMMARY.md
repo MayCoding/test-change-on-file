@@ -23,5 +23,4 @@
 * [\[Self Guided Lessons\]](content2739.md)
 * [완전 새로운 콘텐츠](page-1.md)
 * [완전 새로운 콘텐츠3](page-3.md)
-* [완전 새로운 콘텐츠3](page-3.md)
-* [완전 새로운 콘텐츠5](page-5.md)
+* [완전 새롭지 않은 변경할 콘텐츠!](content33278648.md)
