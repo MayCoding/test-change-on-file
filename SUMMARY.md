@@ -21,6 +21,6 @@
 * [\[읽기 자료\] (Optional)Postman으로 날씨 받아오기를](content2737.md)
 * [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다](content7181.md)
 * [\[Self Guided Lessons\]](content2739.md)
-* [완전 새로운 콘텐츠](page-1.md)
+* [Action 파일 위치 변경](page-1.md)
 * [완전 변경할 콘텐츠3](content4983579843.md)
 * [완전 새롭지 않은 변경할 콘텐츠!](content33278648.md)
