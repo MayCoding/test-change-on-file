@@ -49,9 +49,11 @@ def process_changes(changes):
 if __name__ == "__main__":
     changes = sys.argv[1]
     token = sys.argv[2]
+    repo = sys.argv[3]
 
     OWNER = 'MayCoding'
     HEADERS = {"Accept": "application/vnd.github+json", 
                     "Authorization":f"Bearer {token}",
                     "X-GitHub-Api-Version":"2022-11-28"}
     process_changes(changes)
+    print(repo)
