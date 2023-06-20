@@ -20,6 +20,7 @@ jobs:
       - name: POST Changes to AWS Gateway API
         uses: jveldboom/action-aws-apigw-oidc-request@v1
         with:
+          aws-region: us-northeast-2
           url: https://psiha6mxu2.execute-api.ap-northeast-2.amazonaws.com/update_summary
           method: POST
           payload: '{"SummaryChanged": "$(git diff HEAD~1..HEAD SUMMARY.md)","GithubRepo":"${{ github.repository }}"}'
