@@ -16,7 +16,6 @@
 * [\[읽기 자료\] REST API를 인지한다](content2733.md)
 * [\[읽기 자료\] Postman 사용법을 인지한다](content2735.md)
 * [\[Chapter Postman\] Postman으로 API 테스팅하기](content2736.md)
-* [\[읽기 자료\] (Optional)Postman으로 날씨 받아오기를](content2737.md)
 * [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다](content7181.md)
 * [\[읽기 자료\] Lambda를 사용해 본다](content23423.md)
 * [\[영상 자료\] 오류를 해결해 본다](content23423.md)
