@@ -2,12 +2,10 @@
 
 * [README](README.md)
 * [\[Introduction\] Read Me](content2720.md)
-* [\[읽기 자료\] URL과 URI를 인지한다](content2722.md)
-* [\[읽기 자료\] 도메인과 DNS를 인지한다](content2724.md)
+* [\[읽기 자료\] URL과 변경 인지한다](content2722.md)
 * [\[영상 자료\] HTTPqusruduaiejfgRequests를 인지한다](content2727.md)
 * [\[읽기 자료\] 변경을 변경한다](content2730.md)
 * [\[영상 자료\] 변경을 인지한다](content7180.md)
-* [\[읽기 자료\] Postman 변경 인지한다](content2735.md)
 * [\[Chapter Postman\] Postman으로 API 테스팅하기](content2736.md)
 * [\[읽기 자료\] Lambda를 사용해 본다](ㄴㅇㄹㄴㅇ.md)
 * [\[연습과제\] 오류를 해결해 본다](ㄴㅇㄹㄴㅇㅎㄴ.md)
@@ -15,3 +13,4 @@
 * [\[읽기 자료\] 새로운 콘텐츠를 사용해 본다](ㄴㅇㄹㄴㅇ.md)
 * [\[연습과제\] 새로운 콘텐츠를 사용해 본다](ㄴㅇㄹㄴㅇ.md)
 * [\[실전과제\] 새로운 콘텐츠를 사용해 본다](ㄴㅇㄹㄴㅇ.md)
+* [\[읽기 자료\] 도레미파솔라시도!!!!!](page-1.md)
