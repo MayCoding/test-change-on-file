@@ -18,5 +18,4 @@
 * [\[Chapter Postman\] Postman으로 API 테스팅하기](content2736.md)
 * [\[영상 자료\] Chrome Network Tab 사용 방법을 인지한다](content7181.md)
 * [\[읽기 자료\] Lambda를 사용해 본다](content23423.md)
-* [\[영상 자료\] 오류를 해결해 본다](content23423.md)
 * [\[실전과제\] 오류를 해결해 본다](content23423.md)
